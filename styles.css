@@ -33,7 +33,7 @@ body.modal-open {
 .section-title {
     font-size: 2.8rem;
     font-weight: 700;
-    color: #2c3e50;
+    color: #6C5D55;
     letter-spacing: 2px;
     margin-bottom: 0.5rem;
 }
@@ -48,7 +48,7 @@ body.modal-open {
 .title-divider {
     width: 60px;
     height: 3px;
-    background: linear-gradient(135deg, #2c3e50, #2c3e50);
+    background: linear-gradient(135deg, #6C5D55, #6C5D55);
     margin: 0 auto 1.5rem auto;
     border-radius: 2px;
 }
@@ -63,7 +63,7 @@ body.modal-open {
 
 /* HEADER 區塊 */
 .site-header {
-    background: #2c3e50;
+    background: #6C5D55;
     padding: 20px 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
@@ -164,7 +164,7 @@ body.modal-open {
 .banner-slogan h2 {
     font-size: 2.2rem;
     margin-bottom: 0.5rem;
-    color: #B3D9F2;
+    color: #D4C4B0;
     font-weight: 600;
 }
 
@@ -190,11 +190,11 @@ body.modal-open {
 
 .feature-icon {
     font-size: 2rem;
-    color: #B3D9F2;
+    color: #D4C4B0;
 }
 
 .feature-icon svg {
-    color: #B3D9F2;
+    color: #D4C4B0;
 }
 
 .feature-item span:last-child {
@@ -233,7 +233,7 @@ body.modal-open {
 }
 
 .form-btn {
-    background: linear-gradient(135deg, #2c3e50, #2c3e50);
+    background: linear-gradient(135deg, #6C5D55, #6C5D55);
     color: white;
 }
 
@@ -262,7 +262,7 @@ body.modal-open {
 
 .intro-text {
     font-size: 1.2rem;
-    color: #2c3e50;
+    color: #6C5D55;
     margin-bottom: 2rem;
     font-weight: 500;
     line-height: 1.8;
@@ -279,7 +279,7 @@ body.modal-open {
 }
 
 .service-partners h4 {
-    color: #2c3e50;
+    color: #6C5D55;
     font-size: 1.3rem;
     margin-bottom: 2rem;
     text-align: center;
@@ -302,22 +302,22 @@ body.modal-open {
 
 .partner-item:hover {
     transform: translateY(-5px);
-    border-color: #2c3e50;
+    border-color: #6C5D55;
     box-shadow: 0 5px 20px rgba(52, 152, 219, 0.1);
 }
 
 .partner-icon {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #2c3e50;
+    color: #6C5D55;
 }
 
 .partner-icon svg {
-    color: #2c3e50;
+    color: #6C5D55;
 }
 
 .partner-item h5 {
-    color: #2c3e50;
+    color: #6C5D55;
     margin-bottom: 0.8rem;
     font-size: 1.1rem;
 }
@@ -356,7 +356,7 @@ body.modal-open {
     width: 60px;
     height: auto;
     padding: 1rem 0;
-    background: linear-gradient(135deg, #2c3e50, #2c3e50);
+    background: linear-gradient(135deg, #6C5D55, #6C5D55);
     border: none;
     border-radius: 8px 0 0 8px;
     cursor: pointer;
@@ -435,7 +435,7 @@ body.modal-open {
 
 .sidebar-header {
     padding: 2.5rem 2rem 2rem;
-    background: linear-gradient(135deg, #2c3e50, #2c3e50);
+    background: linear-gradient(135deg, #6C5D55, #6C5D55);
     color: white;
 }
 
@@ -481,7 +481,7 @@ body.modal-open {
 
 .contact-btn .info-text strong,
 .contact-btn .info-text .info-value {
-    color: #2c3e50;
+    color: #6C5D55;
 }
 
 .info-icon {
@@ -502,14 +502,14 @@ body.modal-open {
 
 .info-text strong {
     display: block;
-    color: #2c3e50;
+    color: #6C5D55;
     font-size: 1rem;
     margin-bottom: 0.3rem;
     font-weight: 700;
 }
 
 .info-text a {
-    color: #2c3e50;
+    color: #6C5D55;
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 600;
@@ -532,7 +532,7 @@ body.modal-open {
 .sidebar-highlight {
     margin-top: 2rem;
     padding: 1.5rem;
-    background: linear-gradient(135deg, #2c3e50, #2c3e50);
+    background: linear-gradient(135deg, #6C5D55, #6C5D55);
     color: white;
     border-radius: 12px;
     display: flex;
@@ -591,7 +591,7 @@ body.modal-open {
 .promise-intro {
     text-align: center;
     font-size: 1.3rem;
-    color: #2c3e50;
+    color: #6C5D55;
     margin-bottom: 1rem;
     font-weight: 500;
 }
@@ -599,7 +599,7 @@ body.modal-open {
 .promise-slogan {
     text-align: center;
     font-size: 1.5rem;
-    color: #2c3e50;
+    color: #6C5D55;
     margin-bottom: 6rem;
     font-weight: 600;
 }
@@ -629,15 +629,15 @@ body.modal-open {
 .value-icon {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #2c3e50;
+    color: #6C5D55;
 }
 
 .value-icon svg {
-    color: #2c3e50;
+    color: #6C5D55;
 }
 
 .value-item h4 {
-    color: #2c3e50;
+    color: #6C5D55;
     font-size: 1.1rem;
     margin: 0;
 }
@@ -678,15 +678,15 @@ body.modal-open {
 .service-nav-item:hover,
 .service-nav-item.active {
     background: white;
-    color: #2c3e50;
-    border-color: #2c3e50;
+    color: #6C5D55;
+    border-color: #6C5D55;
     box-shadow: 0 3px 10px rgba(52, 152, 219, 0.2);
 }
 
 .service-number {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #2c3e50;
+    color: #6C5D55;
 }
 
 .service-name {
@@ -723,9 +723,9 @@ body.modal-open {
 
 .service-detail-text h3 {
     font-size: 2rem;
-    color: #2c3e50;
+    color: #6C5D55;
     margin-bottom: 2rem;
-    border-bottom: 3px solid #2c3e50;
+    border-bottom: 3px solid #6C5D55;
     padding-bottom: 0.5rem;
     display: inline-block;
 }
@@ -761,7 +761,7 @@ body.modal-open {
     background: #f8f9fa;
     padding: 1.5rem;
     border-radius: 8px;
-    border-left: 4px solid #2c3e50;
+    border-left: 4px solid #6C5D55;
     color: #666;
     font-style: italic;
     margin: 0;
@@ -769,11 +769,12 @@ body.modal-open {
 
 .service-detail-image {
     position: relative;
+    height: 100%;
 }
 
 .service-detail-image img {
     width: 100%;
-    height: 300px;
+    height: 100%;
     object-fit: cover;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -822,7 +823,7 @@ body.modal-open {
 .area-info h3 {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
-    color: #2c3e50;
+    color: #6C5D55;
 }
 
 .area-info p {
@@ -841,21 +842,21 @@ body.modal-open {
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    border-left: 4px solid #2c3e50;
+    border-left: 4px solid #6C5D55;
 }
 
 .area-icon {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #2c3e50;
+    color: #6C5D55;
 }
 
 .area-icon svg {
-    color: #2c3e50;
+    color: #6C5D55;
 }
 
 .area-item h4 {
-    color: #2c3e50;
+    color: #6C5D55;
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
 }
@@ -882,7 +883,7 @@ body.modal-open {
 
 .area-item li:before {
     content: '•';
-    color: #2c3e50;
+    color: #6C5D55;
     position: absolute;
     left: 0;
 }
@@ -890,7 +891,7 @@ body.modal-open {
 .service-promise {
     text-align: center;
     padding: 3rem 2rem;
-    background: linear-gradient(135deg, #2c3e50, #2c3e50);
+    background: linear-gradient(135deg, #6C5D55, #6C5D55);
     color: white;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(52, 152, 219, 0.3);
@@ -904,7 +905,7 @@ body.modal-open {
 .service-promise .promise-slogan {
     font-size: 1.4rem;
     margin: 0;
-    color: #B3D9F2;
+    color: #D4C4B0;
 }
 
 /* 案例介紹 */
@@ -932,7 +933,7 @@ body.modal-open {
 .portfolio-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-    border-color: #2c3e50;
+    border-color: #6C5D55;
 }
 
 .portfolio-image {
@@ -962,14 +963,14 @@ body.modal-open {
 }
 
 .portfolio-content h3 {
-    color: #2c3e50;
+    color: #6C5D55;
     margin-bottom: 0.8rem;
     font-size: 1.2rem;
     line-height: 1.4;
 }
 
 .portfolio-category {
-    color: #2c3e50;
+    color: #6C5D55;
     font-size: 0.9rem;
     font-weight: 500;
     margin-bottom: 0.8rem;
@@ -983,7 +984,7 @@ body.modal-open {
 }
 
 .read-more {
-    color: #2c3e50;
+    color: #6C5D55;
     text-decoration: none;
     font-weight: 600;
     font-size: 0.9rem;
@@ -1009,7 +1010,7 @@ body.modal-open {
 
 .view-more-btn {
     display: inline-block;
-    background: linear-gradient(135deg, #2c3e50, #2c3e50);
+    background: linear-gradient(135deg, #6C5D55, #6C5D55);
     color: white;
     padding: 12px 30px;
     text-decoration: none;
@@ -1135,7 +1136,7 @@ body.modal-open {
     font-size: 2rem;
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #2c3e50, #2c3e50);
+    background: linear-gradient(135deg, #6C5D55, #6C5D55);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1144,13 +1145,13 @@ body.modal-open {
 }
 
 .contact-text h4 {
-    color: #2c3e50;
+    color: #6C5D55;
     margin-bottom: 0.5rem;
     font-size: 1.1rem;
 }
 
 .contact-text a {
-    color: #2c3e50;
+    color: #6C5D55;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.2rem;
@@ -1166,7 +1167,7 @@ body.modal-open {
 }
 
 .contact-text .info-value {
-    color: #2c3e50;
+    color: #6C5D55;
     font-weight: 600;
 }
 
@@ -1218,7 +1219,7 @@ body.modal-open {
 }
 
 .form-title {
-    color: #2c3e50;
+    color: #6C5D55;
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
     text-align: center;
@@ -1244,7 +1245,7 @@ body.modal-open {
 .form-group label {
     display: block;
     margin-bottom: 0.8rem;
-    color: #2c3e50;
+    color: #6C5D55;
     font-weight: 600;
     font-size: 1rem;
 }
@@ -1265,7 +1266,7 @@ body.modal-open {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #2c3e50;
+    border-color: #6C5D55;
     box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
 }
 
@@ -1303,7 +1304,7 @@ body.modal-open {
 }
 
 .submit-button {
-    background: linear-gradient(135deg, #2c3e50, #2c3e50);
+    background: linear-gradient(135deg, #6C5D55, #6C5D55);
     color: white;
     box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
 }
@@ -1315,7 +1316,7 @@ body.modal-open {
 
 /* Footer */
 .footer {
-    background: #2c3e50;
+    background: #6C5D55;
     color: white;
     text-align: center;
     padding: 2rem 0;
@@ -1466,7 +1467,7 @@ body.modal-open {
     }
     
     .mobile-contact-btn.phone {
-        background: linear-gradient(135deg, #2c3e50, #2c3e50);
+        background: linear-gradient(135deg, #6C5D55, #6C5D55);
     }
     
     .mobile-contact-btn.line {
@@ -1785,7 +1786,7 @@ body.modal-open {
 
 .modal-header h2 {
     font-size: 2rem;
-    color: #2c3e50;
+    color: #6C5D55;
     margin-bottom: 1rem;
 }
 
@@ -1798,7 +1799,7 @@ body.modal-open {
 }
 
 .modal-category {
-    color: #2c3e50;
+    color: #6C5D55;
     font-size: 0.9rem;
     margin-bottom: 2rem;
 }
@@ -1826,10 +1827,10 @@ body.modal-open {
 .modal-details h3,
 .modal-gallery h3 {
     font-size: 1.5rem;
-    color: #2c3e50;
+    color: #6C5D55;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #2c3e50;
+    border-bottom: 2px solid #6C5D55;
 }
 
 .modal-description p {
@@ -1855,7 +1856,7 @@ body.modal-open {
     content: '✓';
     position: absolute;
     left: 0;
-    color: #2c3e50;
+    color: #6C5D55;
     font-weight: bold;
 }
 
@@ -1898,7 +1899,7 @@ body.modal-open {
 .modal-contact-btn {
     display: inline-block;
     padding: 1rem 2rem;
-    background: linear-gradient(135deg, #2c3e50, #2c3e50);
+    background: linear-gradient(135deg, #6C5D55, #6C5D55);
     color: white;
     text-decoration: none;
     border-radius: 50px;

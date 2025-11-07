@@ -1551,8 +1551,10 @@ body.modal-open {
     }
     
     .services-nav {
-        flex-direction: column;
+        flex-direction: row;
         gap: 0.5rem;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
     }
     
     .service-detail-grid {
@@ -1566,7 +1568,8 @@ body.modal-open {
     }
     
     .areas-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
     }
     
     .area-item ul {
@@ -1686,6 +1689,8 @@ body.modal-open {
     
     .service-nav-item {
         padding: 1rem 0.5rem;
+        min-width: 120px;
+        flex-shrink: 0;
     }
     
     .service-name {

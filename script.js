@@ -469,3 +469,26 @@ document.getElementById('contactForm').addEventListener('submit', async function
         submitButton.disabled = false;
     }
 });
+
+// 施工側拍分頁功能
+function showGalleryPage(pageNumber) {
+    // 隱藏所有頁面
+    const pages = document.querySelectorAll('.gallery-page');
+    pages.forEach(page => page.classList.remove('active'));
+    
+    // 顯示指定頁面
+    const targetPage = document.getElementById(`gallery-page-${pageNumber}`);
+    if (targetPage) {
+        targetPage.classList.add('active');
+    }
+    
+    // 更新按鈕狀態
+    const buttons = document.querySelectorAll('.page-btn');
+    buttons.forEach((btn, index) => {
+        if (index + 1 === pageNumber) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+}

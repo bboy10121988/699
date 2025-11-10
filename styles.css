@@ -88,7 +88,7 @@ body.modal-open {
 /* BANNER 區塊 */
 .banner {
     height: 700px;
-    background: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80') center/cover;
+    background: url('images/OneDrive_1_2025-11-10/S__75776022_0.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1085,6 +1085,45 @@ body.modal-open {
 
 .gallery-footer {
     text-align: center;
+}
+
+/* 施工側拍分頁 */
+.gallery-page {
+    display: none;
+}
+
+.gallery-page.active {
+    display: block;
+}
+
+.gallery-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 3rem 0 2rem 0;
+}
+
+.page-btn {
+    padding: 0.8rem 1.5rem;
+    border: 2px solid #6C5D55;
+    background: white;
+    color: #6C5D55;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.page-btn:hover {
+    background: #6C5D55;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.page-btn.active {
+    background: #6C5D55;
+    color: white;
 }
 
 /* 聯絡表單 */

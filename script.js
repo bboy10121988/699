@@ -205,67 +205,6 @@ document.addEventListener('DOMContentLoaded', function() {
     document.head.appendChild(link);
 });
 
-// 回到頂部功能
-function scrollToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-}
-
-// 建立回到頂部按鈕
-window.addEventListener('scroll', function() {
-    let scrollToTopBtn = document.querySelector('.scroll-to-top');
-    
-    if (!scrollToTopBtn) {
-        scrollToTopBtn = document.createElement('button');
-        scrollToTopBtn.className = 'scroll-to-top';
-        scrollToTopBtn.innerHTML = '↑';
-        scrollToTopBtn.setAttribute('aria-label', '回到頂部');
-        scrollToTopBtn.onclick = scrollToTop;
-        document.body.appendChild(scrollToTopBtn);
-        
-        // 添加樣式
-        const style = document.createElement('style');
-        style.textContent = `
-            .scroll-to-top {
-                position: fixed;
-                bottom: 30px;
-                right: 30px;
-                width: 50px;
-                height: 50px;
-                border-radius: 50%;
-                background: linear-gradient(135deg, #ff6b35, #f7931e);
-                color: white;
-                border: none;
-                font-size: 20px;
-                font-weight: bold;
-                cursor: pointer;
-                box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
-                transition: all 0.3s ease;
-                opacity: 0;
-                visibility: hidden;
-                z-index: 1000;
-            }
-            .scroll-to-top.show {
-                opacity: 1;
-                visibility: visible;
-            }
-            .scroll-to-top:hover {
-                transform: translateY(-2px);
-                box-shadow: 0 6px 20px rgba(255, 107, 53, 0.6);
-            }
-        `;
-        document.head.appendChild(style);
-    }
-    
-    if (window.pageYOffset > 300) {
-        scrollToTopBtn.classList.add('show');
-    } else {
-        scrollToTopBtn.classList.remove('show');
-    }
-});
-
 // 案例介紹彈窗功能
 const portfolioData = {
     1: {
